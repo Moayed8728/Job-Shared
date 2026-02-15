@@ -1,0 +1,23 @@
+{
+    "name": "job/shared",
+    "description": "This is a package for a model to be shared between my projects",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^12"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mr.Moayed",
+            "email": "mwyd8728@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+    
+}
